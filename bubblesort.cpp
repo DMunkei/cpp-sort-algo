@@ -8,7 +8,7 @@ void swap(int* a, int p1, int p2)
 
 
 
-int main()
+void main()
 {
 	int a[6] = {4,5,3,2,38,1};
 	int length = sizeof(a)/sizeof(int);
