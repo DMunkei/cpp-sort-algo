@@ -7,6 +7,8 @@ void swap(int* p1, int* p2)
 	*p2 = tmp;
 }
 
+//Need to change this, it always gives out the first element, since the pointer only points towards the first element in the array
+//And that then just points to the size of the primitive type, integer in this case 4 bytes. so the result will always be 1.
 int getPivot(int* a)
 {	
 	return (sizeof(a) / sizeof(int)) / 2;
